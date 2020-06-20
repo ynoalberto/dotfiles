@@ -2,7 +2,8 @@
 
 sxhkd &
 
-picom &
+
+compton --config ~/.config/compton/compton.conf &
 
 nitrogen --restore &
 
