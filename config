@@ -206,8 +206,13 @@ colors {
 #Quitar Bordes de ventanas
 for_window [class=".*"] border pixel 1
 
-#Nitrogen 
-exec nitrogen --restore
+# Wallpapers dinámicos
+exec watch -n 1200 feh --randomize --bg-fill $HOME/Wallpaper/*
+
+# Compositor de ventanas
+exec compton --config ~/.config/compton/compton.conf
+
+
 
 #Rofi 
 bindsym $mod+y exec  rofi  -sidebar-mode  -theme Arc-Dark -columns 2 -monitor -4  -show drun -show-icons
@@ -218,13 +223,6 @@ exec --no-startup-id volumeicon
 
 #PCMANFM
 bindsym $mod+t exec pcmanfm
-
-
-# EFECTO DESENFOQUE
-exec compton
-exec_always compton
-# Transparencia
-exec --no-startup-id compton -cCGb
 
 
 
