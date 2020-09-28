@@ -3,6 +3,8 @@
 sxhkd &
 
 
+xfce4-power-manager &
+
 compton --config ~/.config/compton/compton.conf &
 
 nitrogen --restore &
