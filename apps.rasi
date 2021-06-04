@@ -6,9 +6,9 @@
    prompt-foreground:           #ffffff;
    prompt-padding:              4px;
    alternate-normal-background: #000000;
-   alternate-normal-foreground: @text-color;
+   alternate-normal-foreground: #ffffff;
    selected-normal-background:  #211daf;
-   selected-normal-foreground:  #000;
+   selected-normal-foreground:  #ffffff;
    spacing:                     3;
 }
 
