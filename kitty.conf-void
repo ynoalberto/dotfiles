@@ -1,0 +1,26 @@
+font_family      Hack Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size 10.0
+force_ltr no
+
+font_features Hack Nerd Font +zero +onum
+
+background #000000
+foreground: #ffffff
+
+background_opacity 0.85
+background_tint 0.0
+cursor_shape block 
+
+enable_audio_bell yes
+
+color1 #ab555b
+color2 #98be65
+coloe3 #98be65
+color4 #f6f019
+color5 #51afef
+color6 #c678dd
+color7 #ffffff
+color8 #202328
