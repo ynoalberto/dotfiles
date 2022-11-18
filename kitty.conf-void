@@ -24,3 +24,9 @@ color5 #51afef
 color6 #c678dd
 color7 #ffffff
 color8 #202328
+
+enabled_layouts fat:bias=50;full_size=1;mirrored=false
+
+map f4 launch --location=split
+map f5 launch --location=hsplit
+map f6 launch --location=vsplit
