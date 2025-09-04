@@ -1,0 +1,35 @@
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+bold = { family = "Hack Nerd Font", style = "Bold" }
+italic = { family = "Hack Nerd Font", style = "Italic" }
+bold_italic = { family = "Hack Nerd Font", style = "Bold Italic" }
+size = 10.0
+
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+bright_foreground = "#ffffff"
+dim_foreground = "#ffffff"
+[window]
+dynamic_padding = true
+decorations = "Full"
+opacity = 0.8
+dynamic_title = true 
+title = "Alacritty"
+class = { instance = "Alacritty", general = "app_id" }
+startup_mode = "Maximized"
+
+[colors]
+
+ draw_bold_text_with_bright_colors = true
+
+
+[colors.normal]
+black = "#1d1f21"
+red = "#cc6666"
+green = "#b5bd68"
+yellow = "#f0c674"
+blue = "#81a2be"
+magenta = "#b294bb"
+cyan = "#8abeb7"
+white = "#c5c8c6"
